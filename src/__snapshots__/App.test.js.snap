@@ -7,3 +7,11 @@ exports[`App component should render app with error 1`] = `
   </div>
 </DocumentFragment>
 `;
+
+exports[`App component should render app without error 1`] = `
+<DocumentFragment>
+  <div>
+     My first component test
+  </div>
+</DocumentFragment>
+`;
