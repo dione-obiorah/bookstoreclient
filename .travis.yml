@@ -7,6 +7,6 @@ script:
 
 deploy:
   provider: heroku
-    api_key: $HEROKU_TOKEN
+  api_key: $HEROKU_TOKEN
   app: book-store-web-22
   
