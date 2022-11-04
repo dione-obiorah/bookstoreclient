@@ -3,9 +3,12 @@ node_js:
   - 16.10.0
 script:
   - "npm run build"
+  - "npm run test:nowatch"
 
 deploy:
   provider: heroku
   api_key: $HEROKU_TOKEN
   app: book-store-web-22
+  on:
+    all_branches: true
   
